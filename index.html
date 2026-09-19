@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="TikTok Analytics is a personal dashboard for understanding video performance and publishing patterns.">
+  <title>TikTok Analytics</title>
+  <link rel="icon" type="image/png" href="assets/app-icon.png">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="index.html" aria-label="TikTok Analytics home">
+      <img src="assets/app-icon.png" alt="" width="42" height="42">
+      <span>TikTok Analytics</span>
+    </a>
+    <nav aria-label="Main navigation">
+      <a href="#about">About</a>
+      <a href="#privacy">Data use</a>
+      <a href="terms.html">Terms</a>
+      <a href="privacy.html">Privacy</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="about">
+      <div class="hero-copy">
+        <p class="eyebrow">Personal analytics workspace</p>
+        <h1>Understand what your TikTok videos are telling you.</h1>
+        <p class="lead">TikTok Analytics organizes video performance data into a clear dashboard, helping authorized creators compare content, dates, posting times, and engagement patterns.</p>
+        <div class="status-row" aria-label="Project status">
+          <span class="status"><span class="status-dot"></span>In development</span>
+          <span class="pill">Official TikTok APIs</span>
+          <span class="pill">Sandbox testing</span>
+        </div>
+      </div>
+      <div class="hero-art" aria-label="Video analytics illustration">
+        <div class="icon-shell">
+          <img src="assets/app-icon.png" alt="TikTok Analytics app icon" width="320" height="320">
+        </div>
+        <div class="metric-card metric-card-top">
+          <span>Video views</span>
+          <strong>Performance</strong>
+          <i></i>
+        </div>
+        <div class="metric-card metric-card-bottom">
+          <span>Publishing patterns</span>
+          <strong>Compare over time</strong>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-grid" aria-label="Main features">
+      <article class="feature-card">
+        <span class="feature-number">01</span>
+        <h2>Video performance</h2>
+        <p>Bring views, likes, comments, and shares together so each published video can be evaluated in one place.</p>
+      </article>
+      <article class="feature-card">
+        <span class="feature-number">02</span>
+        <h2>Useful comparisons</h2>
+        <p>Filter by account and date, compare periods, and observe how publishing times relate to results.</p>
+      </article>
+      <article class="feature-card">
+        <span class="feature-number">03</span>
+        <h2>Historical context</h2>
+        <p>Preserve metric snapshots to understand how content performance changes after publication.</p>
+      </article>
+    </section>
+
+    <section class="data-section" id="privacy">
+      <div>
+        <p class="eyebrow">Focused by design</p>
+        <h2>A small tool built around clear, objective data.</h2>
+      </div>
+      <div class="data-copy">
+        <p>The application is being developed for personal use with specifically authorized TikTok accounts. It uses TikTok's official authorization flow and requests only the access needed to identify an account and read its public videos.</p>
+        <p>It does not post content, sell personal information, or use advertising profiles. Learn more about the planned processing and your choices in the <a href="privacy.html">Privacy Policy</a>.</p>
+      </div>
+    </section>
+
+    <section class="flow" aria-labelledby="flow-title">
+      <div class="section-heading">
+        <p class="eyebrow">How it works</p>
+        <h2 id="flow-title">From authorization to insight</h2>
+      </div>
+      <ol class="flow-list">
+        <li><span>1</span><strong>Authorize</strong><small>The account owner approves access through TikTok.</small></li>
+        <li><span>2</span><strong>Collect</strong><small>The application requests permitted video and metric data.</small></li>
+        <li><span>3</span><strong>Organize</strong><small>Information is structured for filters and comparisons.</small></li>
+        <li><span>4</span><strong>Analyze</strong><small>The creator reviews patterns and makes their own decisions.</small></li>
+      </ol>
+    </section>
+  </main>
+
+  <footer>
+    <div>
+      <strong>TikTok Analytics</strong>
+      <p>An independent personal project. Not affiliated with or endorsed by TikTok.</p>
+    </div>
+    <div class="footer-links">
+      <a href="terms.html">Terms of Use</a>
+      <a href="privacy.html">Privacy Policy</a>
+      <a href="https://github.com/RafaelLanaSilva/tiktok-analytics-site" rel="noreferrer">GitHub</a>
+    </div>
+    <p class="copyright">© 2026 Rafael Developer</p>
+  </footer>
+</body>
+</html>
