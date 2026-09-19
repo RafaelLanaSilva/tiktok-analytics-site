@@ -546,3 +546,53 @@ footer p {
     scroll-behavior: auto;
   }
 }
+
+.callback-page {
+  display: grid;
+  min-height: 100vh;
+  place-items: center;
+  padding: 32px 20px;
+}
+
+.callback-shell {
+  width: min(100%, 680px);
+  margin: 0;
+  padding: clamp(30px, 6vw, 64px);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: linear-gradient(145deg, rgba(16, 29, 49, 0.92), rgba(8, 15, 27, 0.94));
+  box-shadow: 0 35px 100px rgba(0, 0, 0, 0.4);
+}
+
+.callback-shell > img {
+  display: block;
+  margin-bottom: 34px;
+  border-radius: 24px;
+}
+
+.callback-shell h1 {
+  margin-bottom: 22px;
+  font-size: clamp(2.7rem, 8vw, 5.2rem);
+}
+
+.callback-shell > p:not(.eyebrow) {
+  color: #c4d0dd;
+  font-size: 1.08rem;
+}
+
+.callback-note {
+  margin-top: 30px;
+  padding: 22px;
+  border: 1px solid rgba(33, 219, 229, 0.2);
+  border-radius: 18px;
+  background: var(--cyan-soft);
+}
+
+.callback-note strong {
+  color: var(--cyan);
+}
+
+.callback-note p {
+  margin: 7px 0 0;
+  color: var(--muted);
+}
